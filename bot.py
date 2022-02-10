@@ -8,9 +8,9 @@ def send(url,paylod,header,acc):
     return f'Message for {acc}sent'
 def main():
     #ID accs
-    id_firs_account = input('ID first_acc:')
+    id_first_account = input('ID first_acc:')
     id_second_account = input('ID second_acc:')
-    first_acc = f"<@{id_firs_account}>"
+    first_acc = f"<@{id_first_account}>"
     second_acc = f"<@{id_second_account}>"
 
 
