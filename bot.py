@@ -33,9 +33,9 @@ def main():
     }
     #Timeouts#
     break_between_messages = int(input('Break between messages: '))
-    timeout = input('Enter timeout: ')
+    timeout = int(input('Enter timeout: '))
     #id_chat and url
-    id_chat = input('ID chat:')
+    id_chat = int(input('ID chat:'))
     url = f"https://discord.com/api/v9/channels/{id_chat}/messages"
     count = 0
     while count <= len(data_for_first_account):
